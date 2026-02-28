@@ -6,7 +6,7 @@ Take note of what I've been doing lately
   它利用一套完善的模型工作流程，实现对多种用户拍照场景的识别、抠图与证件照生成。
 
 2. Git Shortcut instructions
-`
+   `
 # 不允许每次打开 brew 要更新
 export HOMEBREW_NO_AUTO_UPDATE=true
 
@@ -25,4 +25,4 @@ alias subMerge='func() {git submodule foreach "git merge origin/$1 || :"; git me
 alias subTag='func() {git tag $1; git push --tags; git submodule foreach git tag $1 || :; git submodule foreach git push --tags || :;}; func'
 
 alias newBra='func() {git checkout -b $1 || :; git submodule foreach "git checkout -b $1 || :";git submodule foreach "git push --set-upstream origin $1 || :";}; func'
-`
+```
