@@ -27,3 +27,5 @@ alias subTag='func() {git tag $1; git push --tags; git submodule foreach git tag
 
 alias newBra='func() {git checkout -b $1 || :; git submodule foreach "git checkout -b $1 || :";git submodule foreach "git push --set-upstream origin $1 || :";}; func'
 ```
+
+3. /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/iOS/Source 替换系统的模版
