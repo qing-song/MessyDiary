@@ -6,7 +6,8 @@ Take note of what I've been doing lately
   它利用一套完善的模型工作流程，实现对多种用户拍照场景的识别、抠图与证件照生成。
 
 2. Git Shortcut instructions
-   `
+
+```
 # 不允许每次打开 brew 要更新
 export HOMEBREW_NO_AUTO_UPDATE=true
 
